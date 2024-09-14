@@ -53,8 +53,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <p>{state.types}</p>
-        <div className="grid w-full max-w-sm items-center gap-1.5">
+       <div className="grid w-full max-w-sm items-center gap-1.5">
        <label for="pokemon_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
           Enter the pokemon that you search for</label>
         <input type="text" id="pokemon_name" 
